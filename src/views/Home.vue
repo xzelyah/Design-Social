@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import { supabase } from '../supabase';
-import { getCategorieImage } from './lib/image';
+import { getCategorieImage } from '../lib/image';
 
 const categories = ref<any[]>([]);
 
