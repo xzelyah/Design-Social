@@ -1,4 +1,4 @@
-import { supabase } from "../../supabase";
+import { supabase } from "../supabase";
 
 export async function getCategorieImage(slug: string): Promise<string | null> {
     const bucket = supabase.storage.from('images-categories');

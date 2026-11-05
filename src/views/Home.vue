@@ -33,19 +33,11 @@ onMounted(async () => {
 
     <section class="gallery">
         <ul>
-            <li>
-                <a href="fonderies.html">
+            <li v-for="categorie in categories" :key="`categorie-${categorie.nom}`">
+                <a :href="`/categorie/${categorie.slug}`">
                     <figure>
-                        <img src="/image/image_typo.jpeg" alt="Image 1">
-                        <figcaption>Fonderies</figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li>
-                <a href="images.html">
-                    <figure>
-                        <img src="/image/img-img.jpg" alt="Image 2">
-                        <figcaption>Images</figcaption>
+                        <img v-if="categorie.image" :src="categorie.image" alt="Image 1">
+                        <figcaption>{{ categorie.nom }}</figcaption>
                     </figure>
                 </a>
             </li>
