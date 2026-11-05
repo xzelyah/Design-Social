@@ -1,4 +1,26 @@
 <script setup lang="ts">
+import { onMounted, ref } from 'vue';
+import { supabase } from '../supabase';
+import { getCategorieImage } from './lib/image';
+
+const categories = ref<any[]>([]);
+
+onMounted(async () => {
+    const { data, error } = await supabase
+        .from('Categorie')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(3);
+
+    if (error) return console.error(error);
+
+    categories.value = await Promise.all(
+        data.map(async (categorie) => {
+            const image = await getCategorieImage(categorie.slug);
+            return { ...categorie, image: image ?? null }
+        })
+    );
+});
 </script>
 
 <template>
