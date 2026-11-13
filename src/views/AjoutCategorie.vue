@@ -71,6 +71,9 @@ async function submit() {
 
 <template>
     <section>
+        <div class="title-wrapper">
+            <h1>Ajouter une catégorie</h1>
+        </div>
         <form @submit.prevent="submit">
             <div>
                 <label for="nom">Catégorie :</label>
