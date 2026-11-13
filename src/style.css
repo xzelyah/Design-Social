@@ -1,83 +1,9 @@
+@import 'assets/fonts/fonts.css';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'ByeByeBinary';
-    src: url('fonts/BBBDMSans-Light.woff2') format('woff2'),
-         url('fonts/BBBDMSans-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ByeByeBinary';
-    src: url('fonts/BBBDMSans-Regular.woff2') format('woff2'),
-         url('fonts/BBBDMSans-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ByeByeBinary';
-    src: url('fonts/BBBDMSans-Bold.woff2') format('woff2'),
-         url('fonts/BBBDMSans-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bianzhidai Base';
-    src: url('fonts/bianzhidai_noBG-Base.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bianzhidai Brush';
-    src: url('fonts/bianzhidai_noBG-Brush.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bianzhidai Cloud';
-    src: url('fonts/bianzhidai_noBG-Cloud.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bianzhidai Bubble';
-    src: url('fonts/bianzhidai_noBG-Bubble.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Herthey';
-    src: url('fonts/BBB-Herthey-Futural--15.woff2') format('woff2'),
-         url('fonts/BBB-Herthey-Futural--15.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Herthey';
-    src: url('fonts/BBB-Herthey-Futural-40.woff2') format('woff2'),
-         url('fonts/BBB-Herthey-Futural-40.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Herthey';
-    src: url('fonts/BBB-Herthey-Futural-95.woff2') format('woff2'),
-         url('fonts/BBB-Herthey-Futural-95.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
 }
 
 h1 { 

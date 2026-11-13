@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'ByeByeBinary';
+    src: url('./BBBDMSans-Light.woff2') format('woff2'),
+         url('./BBBDMSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ByeByeBinary';
+    src: url('./BBBDMSans-Regular.woff2') format('woff2'),
+         url('./BBBDMSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ByeByeBinary';
+    src: url('./BBBDMSans-Bold.woff2') format('woff2'),
+         url('./BBBDMSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bianzhidai Base';
+    src: url('./bianzhidai_noBG-Base.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bianzhidai Brush';
+    src: url('./bianzhidai_noBG-Brush.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bianzhidai Cloud';
+    src: url('./bianzhidai_noBG-Cloud.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bianzhidai Bubble';
+    src: url('./bianzhidai_noBG-Bubble.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Herthey';
+    src: url('./BBB-Herthey-Futural--15.woff2') format('woff2'),
+         url('./BBB-Herthey-Futural--15.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Herthey';
+    src: url('./BBB-Herthey-Futural-40.woff2') format('woff2'),
+         url('./BBB-Herthey-Futural-40.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Herthey';
+    src: url('./BBB-Herthey-Futural-95.woff2') format('woff2'),
+         url('./BBB-Herthey-Futural-95.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

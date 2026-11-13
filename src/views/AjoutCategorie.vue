@@ -54,7 +54,7 @@ async function submit() {
 
         if (file) {
             const ext = file.name.split('.').pop();
-            const { error: uploadError } = supabase.storage
+            const { error: uploadError } = await supabase.storage
                 .from('images-categories')
                 .upload(`${slug.value}.${ext}`, file, { contentType: file.type });
 
